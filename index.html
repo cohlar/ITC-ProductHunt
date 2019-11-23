@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+
+	<!-- Internet Explorer Compatibility -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>EasyFBA</title>
+
+	<!-- Font Awesome (bootstrap load) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="./styles/main.css">
+
+	<!-- Font 'Montserrat' sans serif -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,800,900&display=swap" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="76">
+
+	<!-- Header -->
+	<header class="navbar fixed-top navbar-expand-md navbar-dark bg-dark nav-background">
+		<a class="navbar-brand" href="#">
+			<img
+				src="./images/easyfba-logo-white-centre-lol.png"
+				alt="EasyFBA Logo"
+			/>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<nav class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Features
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#features">Sales Reporting</a>
+						<a class="dropdown-item" href="#features">Inventory Management</a>
+						<a class="dropdown-item" href="#features">Pricing & Competition</a>
+						<a class="dropdown-item" href="#features">Advertising Campaigns</a>
+						<a class="dropdown-item" href="#features">Amazon Listings</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#product-pricing">Pricing</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about-us">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" tabindex="-1" aria-disabled="true">
+						Login
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Section - Home -->
+	<section id="home" class="home-section flexbox-justify-center">
+		<div class="home-text flexbox-justify-center">
+			<h1>Welcome to Easy<strong>FBA</strong>!</h1>
+			<h6>The <strong>one stop</strong> shop for Amazon FBA sellers</h6>
+			<div id="home-button" class="none">
+				<button class="btn promo-btn" onclick="window.location.href='https://i.pinimg.com/736x/6d/db/c5/6ddbc58b4f26c54cae47652f6f5966a7.jpg'" onmouseover="changeClass()">START FREE TRIAL</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section - Features -->
+	<section id="features" class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="section-title lightgray-text">
+					Features
+				</h2>
+			</div>
+		</div>
+		<div id="features-come-left" class="row features-animate-me">
+			<div class="col-12 col-md-4 feature">
+				<div class="feature-icon orange-circle">
+					<i class="fas fa-chart-line fa-2x"></i>
+				</div>
+				<h4 class="section-subtitle">
+					Sales Reporting
+				</h4>
+				<p class="section-content darkgray-text">
+					Get a set of meaningful charts and reports so you can seamlessly analyze your sales across Amazon marketplaces
+				</p>
+			</div>
+			<div class="col-12 col-md-4 feature">
+				<div class="feature-icon orange-circle">
+					<i class="fas fa-balance-scale fa-2x"></i>
+				</div>
+				<h4 class="section-subtitle">
+					Inventory Management
+				</h4>
+				<p class="section-content darkgray-text">
+					Check your inventory history and get live recommendations for supplier orders and FBA shipments
+				</p>
+			</div>
+			<div class="col-12 col-md-4 feature">
+				<div class="feature-icon orange-circle">
+					<i class="fas fa-hand-holding-usd fa-2x"></i>
+				</div>
+				<h4 class="section-subtitle">
+					Pricing & Competition
+				</h4>
+				<p class="section-content darkgray-text">
+					Monitor your competitors' prices and rankings, and automatically set prices based on ROI and Profit Margin
+				</p>
+			</div>
+		</div>
+		<div id="features-come-right" class="row features-animate-me">
+			<div class="col-12 col-md-6 feature">
+				<div class="feature-icon orange-circle">
+					<i class="fas fa-binoculars fa-2x"></i>
+				</div>
+				<h4 class="section-subtitle">
+					Ad Campaigns
+				</h4>
+				<p class="section-content darkgray-text">
+					Optimize your Amazon advertising campaigns with multi-language keyword and bid recommendations
+				</p>
+			</div>
+			<div class="col-12 col-md-6 feature">
+				<div class="feature-icon orange-circle">
+					<i class="fas fa-tags fa-2x"></i>
+				</div>
+				<h4 class="section-subtitle">
+					Amazon Listings
+				</h4>
+				<p class="section-content darkgray-text">
+					Sync your product listings in multiple languages across Amazon marketplaces
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 features-screenshot-container">
+				<img
+				class="img-responsive software-screenshot"
+				src="./images/software-screenshot.png"
+				alt="EasyFBA SaaS Screenshot"
+				/>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section - Product Pricing -->
+	<section id="product-pricing" class="pricing-section flexbox-justify-center">
+		<h2 class="section-title white-text">
+			Pricing
+		</h2>
+		<div class="pricing-items flexbox-justify-center">
+			<div class="pricing-item flexbox-space-around">
+				<div class="pricing-model">
+					<h1 class="price-title">Pro</h1>
+					<h6 class="price-subtitle">Up to <span class="n-of-orders">15,000</span> Orders Per Month</h6>
+				</div>
+				<h3 class="price-price">$ <span class="price">40</span>/mo</h3>
+				<button class="btn pricing-btn" type="button">Start Free Trial</button>
+			</div>
+			<div class="pricing-item flexbox-space-around">
+				<div class="pricing-model">
+					<h1 class="price-title">Expert</h1>
+					<h6 class="price-subtitle">Up to <span class="n-of-orders">25,000</span> Orders Per Month</h6>
+				</div>
+				<h3 class="price-price">$ <span class="price">80</span>/mo</h3>
+				<button class="btn pricing-btn" type="button">Start Free Trial</button>
+			</div>
+			<div class="pricing-item flexbox-space-around">
+				<div class="pricing-model">
+					<h1 class="price-title">Entreprise</h1>
+					<h6 class="price-subtitle">More than <span class="n-of-orders">25,000</span> Orders Per Month</h6>
+				</div>
+				<h3 class="price-price">$ <span class="price">120</span >/mo</h3>
+				<button class="btn pricing-btn" type="button">Start Free Trial</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section - About Us -->
+	<section id="about-us" class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="section-title lightgray-text">
+					About Us
+				</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-6 founder">
+				<img
+				class="founder-picture img-responsive"
+				src="./images/ilann-ohayon.jpg"
+				alt="Ilann Ohayon - Co-founder"
+				/>
+				<h4 class="section-subtitle orange-text">
+					Ilann Ohayon
+				</h4>
+				<p class="section-content">
+					Tech-savvy since his youngest age, Ilann eats code, drinks code and dreams code. His deep expertise in fullstack engineering has brought EasyFBA alive out of thin air, to offer FBA sellers the best possible experience.
+				</p>
+			</div>
+			<div class="col-12 col-md-6 founder">
+				<img class="founder-picture img-responsive" src="./images/larry-cohen.jpg" alt="Larry Cohen - Co-founder"/>
+				<h4 class="section-subtitle orange-text">
+					Larry Cohen
+				</h4>
+				<p class="section-content">
+					Larry has been pretty useless in the development of this landing page. But let's give him some credit anyways, because that's the only way to be as happy as Larry <span class="dont-separate-me">  :  ) .</span>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Us -->
+	<section id="contact" class="contact-us-section">
+		<div class="contact-form-container flexbox-space-around">
+			<h2 class="section-title">
+				Contact <span class="orange-text">Us</span>
+			</h2>
+			<p class="text-center w-responsive mx-auto mb-5">
+				Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.
+			</p>
+			<div class="row reverse">
+				<div class="col-md-3 text-center">
+					<ul class="list-unstyled mb-0">
+						<li><i class="orange-text fas fa-map-marker-alt fa-2x"></i>
+							<p>Shoken St 18, Tel Aviv-Yafo 6655604, ISRAEL</p>
+						</li>
+						<li><i class="orange-text fas fa-phone mt-4 fa-2x"></i>
+							<p>+972-12-345-6789</p>
+						</li>
+						<li><i class="orange-text fas fa-envelope mt-4 fa-2x"></i>
+							<p>contact@easyfba.com</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-9 mb-md-0 mb-5">
+					<form id="contact-form" name="contact-form" action="#" method="POST">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="md-form mb-0">
+									<input type="text" id="name" name="name" class="form-control" placeholder="Full name">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="md-form mb-0">
+									<input type="text" id="email" name="email" class="form-control" placeholder="Email (i.e.: example@company.com)">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="md-form mb-0 ">
+									<input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="md-form">
+									<textarea id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Message"></textarea>
+								</div>
+							</div>
+						</div>
+					</form>
+					<div class="text-center text-md-right">
+						<button class="btn contact-btn" onclick="window.location.href='https://media3.giphy.com/media/8oh42nM14t50Q/giphy.gif'" onmouseover="changeClass()">Send</button>
+					</div>
+					<div class="status"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer-section">
+		<div class="footer-copyright">&copy; 2019 EasyFBA. All Rights Reserved.</div>
+		<div class="footer-social flexbox-space-around">
+			<div class="footer-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+			<div class="footer-twitter"><a href="#"><i class="fab fa-twitter"></i></a></div>
+		</div>
+	</footer>
+
+	<!-- Javascript Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<!-- Custom Script -->
+	<script src="./js/i-like-to-move-it-move-it.js" ></script>
+</body>
+</html>
